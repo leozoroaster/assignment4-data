@@ -6,6 +6,8 @@ from typing import Any
 
 
 def run_extract_text_from_html_bytes(html_bytes: bytes) -> str | None:
+    from cs336_data.extract import extract_text
+    return extract_text(html_bytes)
     raise NotImplementedError
 
 
